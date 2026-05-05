@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* تنظیم فونت فارسی */
+@font-face {
+  font-family: 'Vazir';
+  src: url('../fonts/Vazir-FD.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Vazir', 'Tahoma', sans-serif;
+}
+
+/* تنظیمات RTL برای PrimeVue */
+.p-datatable {
+  direction: rtl;
+}
+
+.p-dialog {
+  direction: rtl;
+}
